@@ -1,0 +1,22 @@
+nav {
+    color: azure;
+    background-color: rgb(58, 58, 58);
+    font-family: 'Montserrat', sans-serif;
+  
+  }
+  
+  nav > a {
+    margin: 0;
+    margin-left: 25px;
+    padding: 10px 20px;
+    color: azure;
+    background-color: rgb(58, 58, 58);
+    text-decoration: none;
+  }
+ 
+  nav > a.active {
+    background-color: rgb(49, 49, 49);
+    border-radius:  50px;
+    text-decoration: none;
+  }
+  
