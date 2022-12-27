@@ -1,0 +1,29 @@
+.List{
+    display: flex;
+    height: 160px;
+    flex-direction: row;
+    background-color: rgb(65, 65, 65);;
+    width: 80%;
+}
+
+.List > img{
+    width: 100px;
+    margin-right: 30px;
+}
+
+.List > p{
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(65, 65, 65);;
+    font-size: 25px;
+}
+
+.movieTitle{
+    margin-right: 15px;
+    height: 30px;
+}
+
+p.releasedYear{
+    font-size: 18px;
+    height: 23px;
+}
