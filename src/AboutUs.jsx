@@ -1,6 +1,15 @@
 import  React from 'react';
+import "./AboutUs.css";
 
-export default function AboutUs() {
-    return <div>This is the About Us Page</div>;
-  }
+function AboutUs(props) {
+  return (
+    <div className="info">
+      <img src={props.img} alt="img" />
+      <p className="info--name">{props.name}</p>
+    </div>
+  );
+}
+
+export default AboutUs;
+
   
