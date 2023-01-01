@@ -20,5 +20,12 @@
     color: aliceblue;
     font-family: 'Montserrat', sans-serif;
     font-size: 60px;
+    margin-bottom: 0px;
+}
+
+.bigCard > h3   {
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
     margin-bottom: 100px;
 }

@@ -1,7 +1,6 @@
 .List{
     display: flex;
-    height: 160px;
-    flex-direction: row;
+    align-items: flex-start;
     background-color: rgb(65, 65, 65);;
     width: 80%;
 }
@@ -11,7 +10,7 @@
     margin-right: 30px;
 }
 
-.List > p{
+.List > a, p{
     color: aliceblue;
     font-family: 'Montserrat', sans-serif;
     background-color: rgb(65, 65, 65);;
@@ -19,11 +18,14 @@
 }
 
 .movieTitle{
+    margin-top: 10px;
     margin-right: 15px;
-    height: 30px;
+    height: 10px;
+    align-self: flex-start;
 }
 
-p.releasedYear{
+p.rating{
+    align-self: left;
     font-size: 18px;
     height: 23px;
 }
