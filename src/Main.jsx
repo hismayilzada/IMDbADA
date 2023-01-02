@@ -1,6 +1,7 @@
+import  React from 'react';
 import AboutUs from "./AboutUs";
-import "./Main.css";
-import About from "../About";
+// import "./Main.css";
+import About from "./About";
 
 function Main() {
   return (

@@ -14,10 +14,10 @@ function App() {
   <NavBar />
   <Routes>
         <Route path="/" element=<Home /> />
-        <Route path="/top100/:pagemovie" element=<PageMovie /> />
+        <Route path="/movie/:pagemovie" element=<PageMovie /> />
         <Route path="/top100" element=<Top100 /> />
         <Route path="*" element=<NotFound/> />
-        <Route path="/aboutus" element=<AboutUs /> />
+        <Route path="/aboutus" element=<Main /> />
   </Routes>
   </>
   )
