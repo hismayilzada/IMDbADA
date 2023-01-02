@@ -1,17 +1,38 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
+import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
+import Product from './Product';
+import axios from "axios";
 import "./Movie.css";
-import data from "./recources/imdb_top_1000.json"
 
 export default function Movie(props) {
-  const [movie, setMovie] = useState(null);
+
+  const [movieCount, setMovieCount] = useState(1);
+  const [movies, setMovies] = useState([]);
+  const [id, setId] = useState();
+
+  // useEffect(() => {
+  //   let url = `http://localhost:2000/movies/`;
+  //   fetch(url)
+  //     .then((data) => {
+  //       return data.json();
+  //     })
+  //     .then((data) => {
+  //       console.log(data);
+  //       setMovie(data);
+  //     });
+  // }, []);
+
+  useEffect(() => {
+    axios.get("http://localhost:2000/movies/").then(async(res) => setMovies(res.data))
+  },[])
 
     return (
-      <div className="List">
-          <img src="https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX67_CR0,0,67,98_AL_.jpg" alt="" />
-          <NavLink className="movieTitle" to="/movie/1">1. The Shawshank Redemption (1994)</NavLink>
-          <p className="rating">IMDb: 9.3  Meta Score: 80%</p>
-        </div>
+      <div>
+      {movies.map((movie) => (
+        <Product id={movie.id} img={movie.Poster_Link} title={movie.Series_Title} year={movie.Released_Year}/>
+      ))}
+      </div>
     );
   }
   

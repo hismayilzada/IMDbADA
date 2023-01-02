@@ -6,18 +6,18 @@ import Home from "./Home";
 import Top100 from "./Top100";
 import AboutUs from './AboutUs';
 import NotFound from './NotFound';
-import PageMovie from './pageMovie';
+import PageMovie from './PageMovie';
 import Main from "./Main";
 function App() {
   return (
   <>
   <NavBar />
   <Routes>
-        <Route path="/" element=<Home /> />
-        <Route path="/movie/:pagemovie" element=<PageMovie /> />
-        <Route path="/top100" element=<Top100 /> />
-        <Route path="*" element=<NotFound/> />
-        <Route path="/aboutus" element=<Main /> />
+        <Route path="/" element={<Home />} />
+        <Route path="/movie/:pagemovie" element={<PageMovie />} />
+        <Route path="/top100" element={<Top100 />} />
+        <Route path="*" element={<NotFound/>} />
+        <Route path="/aboutus" element={<Main />} />
   </Routes>
   </>
   )
