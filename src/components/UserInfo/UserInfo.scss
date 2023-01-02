@@ -1,0 +1,52 @@
+.userInfo {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    border: solid 2px black;
+
+    .leftCard {
+        width: 30%;
+        height: 160px;
+        display: flex;
+
+        .imgLeftCard {
+            width: 130px;
+            height: 160px;
+            border-radius: 40px;
+            margin-left: 10px;
+            box-shadow: -7px 1px 7px 6px rgb(54, 54, 54);
+        }
+    }
+
+    .rightCard {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+
+        .about {
+            width: 100%;
+            height: 30px;
+            font-size: 15px;
+        }
+
+        .bio {
+            width: 100%;
+            height: 80px;
+            font-size: 13px;
+        }
+
+        .links {
+            width: 100%;
+            height: 25px;
+            display: flex;
+            gap: 70px;
+            align-items: center;
+            .totalLinks{
+                text-decoration: none;
+            }
+        }
+
+
+    }
+}
