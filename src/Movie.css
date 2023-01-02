@@ -1,31 +1,40 @@
 .List{
     display: flex;
-    align-items: flex-start;
-    background-color: rgb(65, 65, 65);;
+    justify-content: left;
+    background-color: rgb(65, 65, 65);
     width: 80%;
+    margin-bottom: 20px;
 }
 
-.List > img{
+.movieInf{
+    background-color: rgb(65, 65, 65);
+    margin-top: 20px;
+}
+
+.List > .poster > img{
     width: 100px;
-    margin-right: 30px;
+    
 }
 
-.List > a, p{
+.List > .movieInf > a, p{
+    padding: 10px;
     color: aliceblue;
+    text-align: left;
     font-family: 'Montserrat', sans-serif;
     background-color: rgb(65, 65, 65);;
     font-size: 25px;
 }
 
-.movieTitle{
-    margin-top: 10px;
+.movieInf > .movieTitle{
+    
     margin-right: 15px;
     height: 10px;
-    align-self: flex-start;
+    /* align-self: flex-start; */
 }
 
-p.rating{
-    align-self: left;
-    font-size: 18px;
-    height: 23px;
+p.inf{
+    text-align: left;
+    font-size: 14px;
+    font-weight: lighter;
+    height: 18px;
 }
