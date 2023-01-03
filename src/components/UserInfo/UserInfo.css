@@ -3,17 +3,18 @@
     display: flex;
     align-items: center;
     border-radius: 40px;
-    border: solid 2px black;
+    border: solid 2px gray;
 
 }
+
 .leftCard {
     width: 30%;
     height: 160px;
     display: flex;
-
+    border-radius: 40px 0 0 40px;
 }
 
-.leftCard > .imgLeftCard {
+.imgLeftCard {
     width: 130px;
     height: 160px;
     border-radius: 40px;
@@ -25,29 +26,30 @@
     width: 70%;
     display: flex;
     flex-direction: column;
-
-    
-    
+    border-radius: 0 40px 40px 0;
 }
-.rightCard > .about {
-    width: 100%;
+
+.rightCard>.about {
+    width: 80%;
     height: 30px;
     font-size: 15px;
 }
 
-.rightCard > .bio {
+.rightCard>.bio {
     width: 100%;
     height: 80px;
     font-size: 13px;
 }
 
-.rightCard > .links {
-    width: 100%;
+.rightCard>.links {
+    width: 80%;
     height: 25px;
     display: flex;
     gap: 70px;
     align-items: center;
 }
-.rightCard > .links >.totalLinks{
+
+.rightCard>.links>.totalLinks {
     text-decoration: none;
+    cursor: pointer;
 }

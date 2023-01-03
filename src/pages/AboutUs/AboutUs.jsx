@@ -1,9 +1,10 @@
 import React from 'react'
 import UserInfo from '../../components/UserInfo/UserInfo'
-import './AboutUs.css'
+import './AboutUs.scss'
 import javid from '../../images/j.png';
 import humay from '../../images/h.png';
 import faraz from '../../images/f.png';
+import FormInput from '../../components/FormInput/FormInput';
 
 const AboutUs = () => {
   return (
@@ -14,10 +15,11 @@ const AboutUs = () => {
         <UserInfo imageValue={faraz} name={'Faraz'} surname={'Bagher Nazhed'} bio={'I am Faraz'} link="https://farazbagher.github.io/" githubLink="https://github.com/farazbagher" />
       </div>
       <div className='aboutUsRight'>
-
+        <FormInput/>
       </div>
     </div>
   )
 }
 
 export default AboutUs
+

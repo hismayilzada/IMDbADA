@@ -1,34 +1,57 @@
-.Movie{
+.Movie1{
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
     margin-top: 40px;
-    background-color: rgb(65, 65, 65);;
+    background-color: rgb(65, 65, 65);
+    margin: 20px auto;
     width: 80%;
 }
 
-.poster > img{
-    width: 100px;
+.Movie{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(65, 65, 65);
+    width: 80%;
+    padding-bottom: 35px;
+}
+
+
+.movieInf > .info > a, p{
+    text-align: left;
+    font-size: 14px;
+    font-weight: lighter;
+    padding: 10px;
+    height: 18px;
+    padding: 0;
+}
+
+.PosterDet{
+    background-color: rgb(65, 65, 65);
+    width: 200px;
+}
+
+.PosterDet> img{
+    width: 200px;
     margin-right: 30px;
 }
 
 .Movie > a, p{
     color: aliceblue;
     font-family: 'Montserrat', sans-serif;
-    background-color: rgb(65, 65, 65);;
-    font-size: 25px;
+    background-color: rgb(65, 65, 65);
+    font-size: 15px;
 }
 
-.movieTitle{
-    margin-top: 10px;
-    margin-right: 15px;
-    height: 10px;
-    align-self: flex-start;
+.rating{
+    display: flex;
+    align-items: center;
+    background-color: rgb(65, 65, 65);
 }
 
-p.rating{
-    align-self: left;
-    font-size: 18px;
-    height: 23px;
+.rating > p{
+    padding-right: 30px;
 }

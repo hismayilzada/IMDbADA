@@ -1,8 +1,6 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import { NavLink } from "react-router-dom";
-import Product from '../../pages/PageMovie/Product';
-import moviepage from "../../pages/PageMovie/PageMovie";
+import Product from '../Product/Product';
 import axios from "axios";
 import "./Movie.css";
 

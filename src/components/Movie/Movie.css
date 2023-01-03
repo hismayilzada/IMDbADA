@@ -3,7 +3,9 @@
     justify-content: left;
     align-items:flex-start;
     background-color: rgb(65, 65, 65);
+    margin: 20px auto;
     width: 80%;
+    border-radius: 20px;
     margin-bottom: 20px;
 }
 
@@ -14,10 +16,11 @@
 
 .List > .poster {
     background-color: rgb(65, 65, 65);
+    justify-content: center;
 }
 
 .List > .poster > img{
-    width: 100px;
+    width: 130px;
     background-color: rgb(65, 65, 65);
     
 }
@@ -31,16 +34,16 @@
     font-size: 25px;
 }
 
+.movieInf{
+    text-align: left;
+}
 .movieInf > .movieTitle{
-    
     margin-right: 15px;
     height: 10px;
-    /* align-self: flex-start; */
 }
 
-p.inf{
-    text-align: left;
-    font-size: 14px;
-    font-weight: lighter;
-    height: 18px;
+
+.info-title{
+    font-size: 50px;
+    font-weight: bold;
 }

@@ -14,10 +14,18 @@ export default function PageMovie(props) {
 
   return (
     <div className='Movie'>
-        <div className="poster"><img src={movies.Poster_Link} alt="" /></div>
           <div className="movieInf">
-            <p>{movies.Series_Title} ({movies.Released_Year})</p>
-            <p className="inf">Ratings: IMDb: {movies.IMDB_Rating}, MetaScore: {movies.Meta_score}</p>
+            <p className='info-title'>{movies.Series_Title}</p>
+            <p className="info year">{movies.Released_Year}  {movies.Certificate} { movies.Runtime}</p>
+            <div className="PosterDet"><img src={movies.Poster_Link} alt="" /></div>
+            <div className="rating">
+              <p className="info imdb">IMDb Rating: ⭐️{movies.IMDB_Rating} ( {movies.No_of_Votes} votes )</p>
+              <p className="info meta">MetaScore: {movies.Meta_score}</p>
+            </div>
+            <p className="info genre">Genre: { movies.Genre }</p>
+            <p className="info director">Director: { movies.Director }</p>
+            <p className="info stars">Stars:  { movies.Star1 }, { movies.Star2 }, { movies.Star3 }, { movies.Star4 }, </p>
+            <p className="info overview">Overview: { movies.Overview }</p>
           </div>
       </div>
   )
