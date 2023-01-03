@@ -1,0 +1,25 @@
+.aboutUs > {
+    width: 100%;
+    border: solid 1px #000;
+    display: flex;
+
+}
+.aboutUs > .aboutUsLeft {
+    width: 50%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border: solid 1px red;
+}
+
+.aboutUs > .aboutUsRight {
+    width: 50%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px blue;
+}

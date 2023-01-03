@@ -1,6 +1,7 @@
 .List{
     display: flex;
     justify-content: left;
+    align-items:flex-start;
     background-color: rgb(65, 65, 65);
     width: 80%;
     margin-bottom: 20px;
@@ -11,8 +12,13 @@
     margin-top: 20px;
 }
 
+.List > .poster {
+    background-color: rgb(65, 65, 65);
+}
+
 .List > .poster > img{
     width: 100px;
+    background-color: rgb(65, 65, 65);
     
 }
 
