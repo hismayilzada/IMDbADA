@@ -6,9 +6,9 @@ import "./NavBar.css";
 function NavBar(){
     return <nav>
     <img className='logoHeader' src={logo} alt="IMDbADA Logo" />
-    <NavLink class="headerLinks" to="/">Home</NavLink>
-    <NavLink class="headerLinks" to="/top1000">Top 1000</NavLink>
-    <NavLink class="headerLinks" to="/aboutus">About Us</NavLink>
+    <NavLink class="headerLinks" to="/IMDbADA/">Home</NavLink>
+    <NavLink class="headerLinks" to="/IMDbADA/top1000">Top 1000</NavLink>
+    <NavLink class="headerLinks" to="/IMDbADA/aboutus">About Us</NavLink>
   </nav>
 }
 
