@@ -1,0 +1,29 @@
+*{
+    background-color: rgb(43, 43, 43);
+    text-decoration: none;
+  }
+  
+  nav{
+    color: azure;
+    background-color: rgb(58, 58, 58);
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    padding-right: 45px;
+  }
+  
+  img.logoHeader{
+    border-radius: 20px;
+    object-fit: cover;
+    width: 200px;
+    height: 60px;
+  }
+  
+  nav{
+    background-color: rgb(58, 58, 58);
+    border-radius: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+  }
+  

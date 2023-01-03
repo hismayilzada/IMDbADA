@@ -1,6 +1,6 @@
 import  React from 'react';
-import Movie from './Movie';
-import "./Top100.css";
+import Movie from '../../components/Movie/Movie';
+import "./Top1000.css";
 
 export default function Top100() {
     return <div className="top">
