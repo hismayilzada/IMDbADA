@@ -13,11 +13,11 @@ function App() {
   <>
   <NavBar />
   <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/movie/:page" element={<Movie1 />} />
-        <Route path="/top1000" element={<Top100 />} />
-        <Route path="*" element={<NotFound/>} />
-        <Route path="/aboutus" element={<AboutUs />} />
+        <Route path="/IMDbADA/" element={<Home />} />
+        <Route path="/IMDbADA/movie/:page" element={<Movie1 />} />
+        <Route path="/IMDbADA/top1000" element={<Top100 />} />
+        <Route path="/IMDbADA/*" element={<NotFound/>} />
+        <Route path="/IMDbADA/aboutus" element={<AboutUs />} />
   </Routes>
   </>
   )
