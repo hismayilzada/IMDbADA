@@ -7,8 +7,6 @@ export default function Movie1(props){
 
     const {page} = useParams();
 
-
-
   return (
     <div className='Movie1'>
         <PageMovie id = {page}/>

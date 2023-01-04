@@ -4,12 +4,12 @@
     align-items:flex-start;
     background-color: rgb(65, 65, 65);
     margin: 20px auto;
+    font-size: 14px;
     width: 80%;
     border-radius: 20px;
     margin-bottom: 20px;
-    animation: fadeIn 1.5s;
+    animation: fadeIn 1s;
 }
-
 .movieInf{
     background-color: rgb(65, 65, 65);
     margin-top: 20px;

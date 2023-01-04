@@ -8,6 +8,8 @@ export default function Product(props) {
           <div className="poster"><img src={props.img} alt="" /></div>
           <div className="movieInf">
             <NavLink className="movieTitle" to={`/IMDbADA/movie/${props.id}`}>{props.id}. {props.title} ({props.year})</NavLink>
+            {props.runtime}
+            <p className="inf">Genre: {props.genre}</p>
             <p className="inf">Ratings: IMDb: {props.imdb}, MetaScore: {props.meta}</p>
             <p className="inf">Overview: {props.overview}</p>
           </div>
