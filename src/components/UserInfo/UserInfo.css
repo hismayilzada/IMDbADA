@@ -52,4 +52,9 @@
 .rightCard>.links>.totalLinks {
     text-decoration: none;
     cursor: pointer;
+    color: rgb(255, 255, 152);
+}
+
+.rightCard>.links>.totalLinks:hover {
+    color: rgb(152, 233, 255);
 }

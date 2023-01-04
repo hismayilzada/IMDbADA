@@ -1,61 +1,97 @@
-*{
-    background-color: rgb(43, 43, 43);
-    text-decoration: none;
-  }  
-
-  @keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+* {
+  background-color: rgb(43, 43, 43);
+  text-decoration: none;
 }
 
-  @keyframes zoom-in {
-    0% {
-      transform: scale(0.5, 0.5);
-    }
-    100% {
-      transform: scale(1, 1);
-    }
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
 
+  100% {
+    opacity: 1;
+  }
+}
 
-  h1.welcome{
-    font-size: 80px;
-    background-color: rgb(65, 65, 65);
-  }  
-  
-
-  .homeImg{
-    background-color: rgb(65, 65, 65);
+@keyframes zoom-in {
+  0% {
+    transform: scale(0.5, 0.5);
   }
 
-  .HomeCard{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    margin: 200px 400px;
-    border-radius: 40px;
-    background-color: rgb(65, 65, 65);
-    animation: fadeIn 1s;
+  100% {
+    transform: scale(1, 1);
   }
+}
 
-  .logoBig{
-    margin-top: 0px;
-    height: 120px;
-    width: 500px;
-    object-fit: cover;
-    border-radius: 40px;
-    animation: fadeIn 2s;
-    animation: zoom-in 1s ;
-  }
-  
 
-  p.homeInf{
-    text-align: justify;
-    font-size: 18px;
-    margin: 40px 76px;
-    height: 90px;
-    max-width: 860px;
-    animation: fadeIn 2.5s;
-  }
+h1.welcome {
+  font-size: 50px;
+  background-color: rgb(65, 65, 65);
+}
+
+
+.homeImg {
+  background-color: rgb(65, 65, 65);
+}
+
+.HomeCard {
+  display: flex;
+  width:1150px;
+  height:700px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 100px 100px;
+  border-radius: 40px;
+  background-color: rgb(65, 65, 65);
+  animation: fadeIn 1s;
+}
+
+.logoBig {
+  height: 80px;
+  width: 250px;
+  object-fit: cover;
+  border-radius: 40px;
+  animation: fadeIn 1s;
+  animation: zoom-in 1s;
+}
+
+
+.homeInf {
+  text-align: justify;
+  font-size: 18px;
+  margin: 40px 76px;
+  height: 90px;
+  max-width: 860px;
+  animation: fadeIn 0.5s;
+}
+
+.basicInfo {
+  text-align: justify;
+  font-size: 18px;
+  margin: -50px 76px;
+  height: 90px;
+  max-width: 860px;
+  /* animation: fadeIn .9s; */
+}
+
+
+iframe.ytVid {
+  border-radius: 20px;
+  width: 350px;
+  height: 210px;
+  margin-top: 110px;
+}
+
+a.homehyperl {
+  color: yellow;
+  background-color: transparent;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+  font-size: 24px;
+}
+
+a.homehyperl:hover {
+  color: aqua;
+}
