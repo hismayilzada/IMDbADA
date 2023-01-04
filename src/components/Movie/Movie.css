@@ -7,6 +7,7 @@
     width: 80%;
     border-radius: 20px;
     margin-bottom: 20px;
+    animation: fadeIn 1.5s;
 }
 
 .movieInf{
@@ -16,7 +17,6 @@
 
 .List > .poster {
     background-color: rgb(65, 65, 65);
-    justify-content: center;
 }
 
 .List > .poster > img{
@@ -28,9 +28,8 @@
 .List > .movieInf > a, p{
     padding: 10px;
     color: aliceblue;
-    text-align: left;
     font-family: 'Montserrat', sans-serif;
-    background-color: rgb(65, 65, 65);;
+    background-color: rgb(65, 65, 65);
     font-size: 25px;
 }
 
@@ -39,11 +38,13 @@
 }
 .movieInf > .movieTitle{
     margin-right: 15px;
+    margin-left: 20px;
     height: 10px;
 }
 
 
 .info-title{
+    height: auto;
     font-size: 50px;
     font-weight: bold;
 }

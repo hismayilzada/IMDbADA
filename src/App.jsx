@@ -1,8 +1,7 @@
 import  React from 'react';
 import { Routes, Route } from "react-router";
-import './App.css';
-import NavBar from "./components/Navbar/NavBar";
 import Home from "./pages/Home/Home";
+import NavBar from "./components/Navbar/NavBar";
 import Top100 from "./pages/Top1000/Top1000";
 import AboutUs from './pages/AboutUs/AboutUs';
 import NotFound from './pages/NotFound/NotFound';

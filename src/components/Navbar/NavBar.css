@@ -1,10 +1,19 @@
+*{
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
 nav {
     color: azure;
     background-color: rgb(58, 58, 58);
     font-family: 'Montserrat', sans-serif;
-  
+    position: absolute;
+    height: 60px;
+    top: 5%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
   }
-  
+ 
   nav > a {
     margin: 0;
     margin-left: 25px;
@@ -13,10 +22,40 @@ nav {
     background-color: rgb(58, 58, 58);
     text-decoration: none;
   }
- 
-  nav > a.active {
-    background-color: rgb(49, 49, 49);
-    border-radius:  50px;
-    text-decoration: none;
+
+  .navMenu .dot {
+    width: 6px;
+    height: 6px;
+    background: #ffd500;
+    border-radius: 50%;
+    opacity: 0;
+    -webkit-transform: translateX(-400px);
+    transform: translateX(-400px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    margin-top: 35px;
   }
   
+  .navMenu a:nth-child(2):hover ~ .dot {
+    -webkit-transform: translateX(-322px);
+    transform: translateX(-322px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+  }
+  
+  .navMenu a:nth-child(3):hover ~ .dot {
+    -webkit-transform: translateX(-196px);
+    transform: translateX(-196px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+  }
+  
+  .navMenu a:nth-child(4):hover ~ .dot {
+    -webkit-transform: translateX(-60px);
+    transform: translateX(-60px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+  }

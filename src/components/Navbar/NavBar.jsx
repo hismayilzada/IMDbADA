@@ -4,11 +4,12 @@ import logo from "../../images/Logos/png/logo-color.png"
 import "./NavBar.css";
 
 function NavBar(){
-    return <nav>
+    return <nav className="navMenu">
     <img className='logoHeader' src={logo} alt="IMDbADA Logo" />
-    <NavLink class="headerLinks" to="/IMDbADA/">Home</NavLink>
-    <NavLink class="headerLinks" to="/IMDbADA/top1000">Top 1000</NavLink>
-    <NavLink class="headerLinks" to="/IMDbADA/aboutus">About Us</NavLink>
+    <NavLink className="headerLinks" to="/IMDbADA/">Home</NavLink>
+    <NavLink className="headerLinks" to="/IMDbADA/top1000">Top 1000</NavLink>
+    <NavLink className="headerLinks" to="/IMDbADA/aboutus">About Us</NavLink>
+    <div class="dot"></div>
   </nav>
 }
 
