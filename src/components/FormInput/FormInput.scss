@@ -1,5 +1,5 @@
 .formInAboutUs {
-    width: 300px;
+    width: 700px;
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -44,7 +44,7 @@
         justify-content: space-between;
 
         #textMessage {
-            width: 160px;
+            width: 80%;
             height: 40px;
             padding: 0 10px;
             outline: none;

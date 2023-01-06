@@ -3,24 +3,34 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+@keyframes fadeIn2 {
+    0% {
+      opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
 .aboutUs {
     width: 100%;
     margin-top: 100px;
-    border: solid 1px #000;
     display: flex;
-    background-color: rgb(43, 43, 43);
-    ;
+    
 
 
     .aboutUsLeft {
-        width: 50%;
+        width: 70%;
         height: 700px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         gap: 30px;
-        // border: solid 1px red;
+        animation: fadeIn 1s;
     }
 
     .aboutUsRight {
@@ -29,7 +39,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        // border: solid 1px blue;
+        animation: fadeIn2 1s;
     }
 
 }

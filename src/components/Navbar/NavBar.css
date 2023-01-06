@@ -1,12 +1,27 @@
 *{
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  background-color: rgb(43, 43, 43);
+  text-decoration: none;
 }
+
+img.logoHeader{
+  border-radius: 20px;
+  object-fit: cover;
+  width: 200px;
+  height: 60px;
+}
+
 nav {
     color: azure;
     background-color: rgb(58, 58, 58);
     font-family: 'Montserrat', sans-serif;
+    border-radius: 22px;
     position: absolute;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-right: 45px;
     height: 60px;
     top: 5%;
     left: 50%;

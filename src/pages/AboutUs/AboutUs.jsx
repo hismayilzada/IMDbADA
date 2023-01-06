@@ -30,3 +30,5 @@ const AboutUs = () => {
 
 export default AboutUs
 
+
+//npx json-server --watch ./src/recources/FormInput.json --port 4000

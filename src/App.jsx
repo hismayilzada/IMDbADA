@@ -27,3 +27,6 @@ export default App;
 
 
 // npx json-server --watch ./src/recources/imdbtop1000.json --port 2000
+// npx json-server --watch ./src/recources/FormInput.json --port 4000
+// npm start
+// Github Pages Deployment: npm run deploy 

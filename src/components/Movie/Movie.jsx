@@ -1,30 +1,10 @@
 import React from "react";
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 import Product from '../Product/Product';
-import axios from "axios";
+// import axios from "axios";
 import "./Movie.css";
 
-export default function Movie(props) {
-
-  const [movieCount, setMovieCount] = useState(1);
-  const [movies, setMovies] = useState([]);
-  const [id, setId] = useState();
-
-  // useEffect(() => {
-  //   let url = `http://localhost:2000/movies/`;
-  //   fetch(url)
-  //     .then((data) => {
-  //       data.json();
-  //     })
-  //     .then((data) => {
-  //       console.log(data);
-  //       setMovie(data);
-  //     });
-  // }, []);
-
-  useEffect(() => {
-    axios.get(`http://localhost:2000/movies`).then(async(res) => setMovies(res.data))
-  },[])
+export default function Movie({movies}) {
 
     return (
       <div>
@@ -41,7 +21,8 @@ export default function Movie(props) {
           runtime={movie.Runtime}
           />
           
-      ))}
+          ))}
+          
       </div>
     );
   }
