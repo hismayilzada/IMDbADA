@@ -14,7 +14,7 @@ export default function Home() {
       <p className="basicInfo">{`This project is kind of the same structure as the IMDb. It shows the top 
           1000 movies and series ranked accordingly. You can see the poster, name, IMDB rating, genre, runtime, and brief information 
           about movies and series. Go to the About Us page to see the member names, bios, and links to their GitHub accounts and 
-          personal web pages. If you have questions or anything to add, please contact us using the `}<a className="homehyperl" href="/IMDbADA/AboutUs">About Us Page</a></p>
+          personal web pages. If you have questions or anything to add, please contact us using the `}<a className="homehyperl" href="/IMDbADA/aboutus">About Us Page</a></p>
       <iframe className="ytVid" width="560" height="315" src="https://www.youtube.com/embed/nn4trP0jask" title="YouTube video player"
         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
